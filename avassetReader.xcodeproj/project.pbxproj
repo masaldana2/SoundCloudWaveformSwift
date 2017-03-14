@@ -15,6 +15,9 @@
 		202893881E77117A006D3F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202893861E77117A006D3F23 /* LaunchScreen.storyboard */; };
 		202893931E77117A006D3F23 /* avassetReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202893921E77117A006D3F23 /* avassetReaderTests.swift */; };
 		2028939E1E77117A006D3F23 /* avassetReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028939D1E77117A006D3F23 /* avassetReaderUITests.swift */; };
+		202893AE1E771522006D3F23 /* piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = 202893AD1E771522006D3F23 /* piano.caf */; };
+		202893B01E77176E006D3F23 /* sample2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 202893AF1E77176E006D3F23 /* sample2.m4a */; };
+		202893B31E771980006D3F23 /* drawWaveform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202893B21E771980006D3F23 /* drawWaveform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		202893991E77117A006D3F23 /* avassetReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avassetReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2028939D1E77117A006D3F23 /* avassetReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avassetReaderUITests.swift; sourceTree = "<group>"; };
 		2028939F1E77117A006D3F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202893AD1E771522006D3F23 /* piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = piano.caf; sourceTree = "<group>"; };
+		202893AF1E77176E006D3F23 /* sample2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample2.m4a; sourceTree = "<group>"; };
+		202893B21E771980006D3F23 /* drawWaveform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawWaveform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 		202893791E77117A006D3F23 /* avassetReader */ = {
 			isa = PBXGroup;
 			children = (
+				202893AF1E77176E006D3F23 /* sample2.m4a */,
 				2028937A1E77117A006D3F23 /* AppDelegate.swift */,
 				2028937C1E77117A006D3F23 /* ViewController.swift */,
+				202893AD1E771522006D3F23 /* piano.caf */,
 				2028937E1E77117A006D3F23 /* Main.storyboard */,
+				202893B21E771980006D3F23 /* drawWaveform.swift */,
 				202893841E77117A006D3F23 /* Assets.xcassets */,
 				202893861E77117A006D3F23 /* LaunchScreen.storyboard */,
 				202893891E77117A006D3F23 /* Info.plist */,
@@ -238,6 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202893AE1E771522006D3F23 /* piano.caf in Resources */,
+				202893B01E77176E006D3F23 /* sample2.m4a in Resources */,
 				202893881E77117A006D3F23 /* LaunchScreen.storyboard in Resources */,
 				202893851E77117A006D3F23 /* Assets.xcassets in Resources */,
 				202893801E77117A006D3F23 /* Main.storyboard in Resources */,
@@ -267,6 +278,7 @@
 			files = (
 				2028937D1E77117A006D3F23 /* ViewController.swift in Sources */,
 				2028937B1E77117A006D3F23 /* AppDelegate.swift in Sources */,
+				202893B31E771980006D3F23 /* drawWaveform.swift in Sources */,
 				202893831E77117A006D3F23 /* avassetReader.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
